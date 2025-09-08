@@ -8,7 +8,8 @@ REPOS_PER_ROW = 2      # number of cards per row
 
 # List of repo names you want to exclude
 EXCEPTIONS = [
-    "XreeceX"
+    "XreeceX",
+    "Python-Notes-must-know-for-intermediate-and-advanced"
 ]
 
 def fetch_repos(username):
