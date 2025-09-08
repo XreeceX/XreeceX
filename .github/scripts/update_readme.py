@@ -12,6 +12,9 @@ EXCEPTIONS = [
     "Python-Notes-must-know-for-intermediate-and-advanced"
 ]
 
+# Normalize exceptions for safer comparison
+EXCEPTIONS_NORMALIZED = [e.strip().lower() for e in EXCEPTIONS]
+
 def fetch_repos(username):
     url = f"https://api.github.com/users/{username}/repos?per_page=100&sort=updated"
     repos = []
@@ -27,7 +30,8 @@ def generate_cards(repos):
     row = []
     count = 0
     for repo in repos:
-        if repo["name"] in EXCEPTIONS:  # ✅ skip repos in exceptions
+        repo_name_normalized = repo["name"].strip().lower()
+        if repo_name_normalized in EXCEPTIONS_NORMALIZED:  # ✅ normalized check
             continue
         name = repo["name"]
         row.append(
@@ -60,8 +64,5 @@ def update_readme(new_cards):
 
 if __name__ == "__main__":
     repos = fetch_repos(USERNAME)
-    repos = fetch_repos(USERNAME)
-    print([repo["name"] for repo in repos])  # 👀 see exact names
     cards = generate_cards(repos)
     update_readme(cards)
-
