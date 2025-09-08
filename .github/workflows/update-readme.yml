@@ -1,4 +1,4 @@
-name: Update README with latest repos
+name: Update README with Repo Cards
 
 on:
   schedule:
@@ -12,11 +12,19 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Update README
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          comment_tag_name: "repos"
-          commit_message: "chore: update README with latest repos"
-          feed_list: "https://github.com/XreeceX" 
-          custom_tags: "<!--START_SECTION:repos-->;<!--END_SECTION:repos-->"
-          enable_keep_alive: true
+          python-version: '3.x'
+
+      - name: Run update script
+        run: |
+          python .github/scripts/update_readme.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update repo cards in README" || echo "No changes to commit"
+          git push
