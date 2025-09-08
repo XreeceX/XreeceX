@@ -1,0 +1,22 @@
+name: Update README with latest repos
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # runs daily
+  workflow_dispatch: # manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Update README
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "repos"
+          commit_message: "chore: update README with latest repos"
+          feed_list: "https://github.com/XreeceX" 
+          custom_tags: "<!--START_SECTION:repos-->;<!--END_SECTION:repos-->"
+          enable_keep_alive: true
