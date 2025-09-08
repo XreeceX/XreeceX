@@ -17,9 +17,13 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Run update script
+      - name: Install dependencies
         run: |
-          python .github/scripts/update_readme.py
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run update script
+        run: python .github/scripts/update_readme.py
 
       - name: Commit and Push changes
         run: |
