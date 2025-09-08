@@ -60,5 +60,8 @@ def update_readme(new_cards):
 
 if __name__ == "__main__":
     repos = fetch_repos(USERNAME)
+    repos = fetch_repos(USERNAME)
+    print([repo["name"] for repo in repos])  # 👀 see exact names
     cards = generate_cards(repos)
     update_readme(cards)
+
