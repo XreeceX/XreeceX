@@ -53,7 +53,7 @@
 
 ### 🚀 Latest Projects  
 <!--START_SECTION:repos-->
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=XreeceX&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Portfolio&theme=radical)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Portfolio&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Expense-tracker-Java&theme=radical)
 
 ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Advance-Expense-Manager&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=VisionFlow&theme=radical)
 
@@ -63,11 +63,9 @@
 
 ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Expense-Checker&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Hangman-Game-python&theme=radical)
 
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Face-Detection-of-Masked-and-Unmasked-People&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Book-store-using-python&theme=radical)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Book-store-using-python&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Face-Detection-of-Masked-and-Unmasked-People&theme=radical)
 
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Amazon-Web-Scraper-Using-python&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Python-Notes-must-know-for-intermediate-and-advanced&theme=radical)
-
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=catalog.interview&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Cgpa-Calculator&theme=radical)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Amazon-Web-Scraper-Using-python&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Cgpa-Calculator&theme=radical)
 
 ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Yt_video_downloader&theme=radical)
 
