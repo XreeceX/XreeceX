@@ -53,7 +53,12 @@
 
 ### 🚀 Latest Projects  
 <!--START_SECTION:repos-->
-<!-- The bot will automatically insert repo cards here -->
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=XreeceX&theme=radical)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Portfolio&theme=radical)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Advance-Expense-Manager&theme=radical)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=VisionFlow&theme=radical)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=DevOps-project&theme=radical)
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=MangaWebsite&theme=radical)
 <!--END_SECTION:repos-->
 
 ---
