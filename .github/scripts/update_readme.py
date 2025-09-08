@@ -6,6 +6,11 @@ THEME = "radical"      # theme for repo cards
 MAX_REPOS = 20         # max repos to display
 REPOS_PER_ROW = 2      # number of cards per row
 
+# List of repo names you want to exclude
+EXCEPTIONS = [
+    "XreeceX"
+]
+
 def fetch_repos(username):
     url = f"https://api.github.com/users/{username}/repos?per_page=100&sort=updated"
     repos = []
@@ -19,12 +24,20 @@ def fetch_repos(username):
 def generate_cards(repos):
     cards = []
     row = []
-    for i, repo in enumerate(repos[:MAX_REPOS], start=1):
+    count = 0
+    for repo in repos:
+        if repo["name"] in EXCEPTIONS:  # ✅ skip repos in exceptions
+            continue
         name = repo["name"]
-        row.append(f"![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={name}&theme={THEME})")
-        if i % REPOS_PER_ROW == 0:
+        row.append(
+            f"![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={name}&theme={THEME})"
+        )
+        count += 1
+        if count % REPOS_PER_ROW == 0:
             cards.append(" ".join(row))
             row = []
+        if count >= MAX_REPOS:
+            break
     if row:
         cards.append(" ".join(row))  # last row
     # Add "See more" link
