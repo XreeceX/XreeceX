@@ -7,7 +7,7 @@
 - 🔭 I’m currently working on **Myself to be a better Developer**
 - 🌱 I’m currently learning **Fullstack with a transition to AI**
 - 👯 I’m looking to collaborate on **AI projects**
-- 👨‍💻 All of my projects are available at [Portfolio](https://xreecex.github.io/Portfolio/)
+- 👨‍💻 All of my projects are available at [Portfolio](https://vercel.com/xreecexs-projects/portfolio)
 - 📫 Reach me: **reecerodri@gmail.com | [LinkedIn](https://www.linkedin.com/in/reece-r-365954222/)**
 - ⚡ Fun fact: **I love outdoor sports**
 
