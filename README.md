@@ -53,23 +53,15 @@
 
 ### 🚀 Latest Projects  
 <!--START_SECTION:repos-->
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Drone-Detection--Model-selection-HOG-PFM-YOLOv4-&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=AURA-AI-Root-Cause-Emotional-Reasoning-Assistant&theme=radical)
 
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Lifestyle-AI&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Expense-tracker-Java&theme=radical)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=AURA-AI-Root-Cause-Emotional-Reasoning-Assistant&theme=radical)](https://github.com/XreeceX/AURA-AI-Root-Cause-Emotional-Reasoning-Assistant)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Lifestyle-AI&theme=radical)](https://github.com/XreeceX/Lifestyle-AI)
 
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Country-Tracker&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=MangaWebsite&theme=radical)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Expense-tracker-Java&theme=radical)](https://github.com/XreeceX/Expense-tracker-Java)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Country-Tracker&theme=radical)](https://github.com/XreeceX/Country-Tracker)
 
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=AI-Content-Generator&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=DevOps-project&theme=radical)
-
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Advance-Expense-Manager&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=VisionFlow&theme=radical)
-
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Expense-Checker&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Hangman-Game-python&theme=radical)
-
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Book-store-using-python&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Face-Detection-of-Masked-and-Unmasked-People&theme=radical)
-
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Amazon-Web-Scraper-Using-python&theme=radical) ![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Cgpa-Calculator&theme=radical)
-
-![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=Yt_video_downloader&theme=radical)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=MangaWebsite&theme=radical)](https://github.com/XreeceX/MangaWebsite)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=XreeceX&repo=AI-Content-Generator&theme=radical)](https://github.com/XreeceX/AI-Content-Generator)
 
 
 👉 [See all repositories](https://github.com/XreeceX?tab=repositories)
