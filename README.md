@@ -73,5 +73,5 @@
 ---
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-one.vercel.app/?user=XreeceX&theme=radical" alt="GitHub streak" />
+  <img src="https://github-readme-streak-stats-one.vercel.app/?user=XreeceX&theme=radical&timezone=Europe/London" alt="GitHub streak" />
 </p>
